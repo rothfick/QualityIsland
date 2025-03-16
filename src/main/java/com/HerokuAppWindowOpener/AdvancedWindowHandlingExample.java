@@ -49,6 +49,8 @@ public class AdvancedWindowHandlingExample {
 
         //przelacz na 3. okno
         driver.switchTo().window(thirdWindow);
+
+        driver.quit();
     }
 
     //metoda pomocnicza do znajdowania okna

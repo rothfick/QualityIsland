@@ -38,6 +38,8 @@ public class WindowHandlingByTitle {
             }
         }
 
+        driver.quit();
+
 
 
 

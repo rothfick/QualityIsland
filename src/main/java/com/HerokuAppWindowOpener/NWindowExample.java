@@ -40,5 +40,7 @@ public class NWindowExample {
             driver.switchTo().window(windows[0]);
             System.out.println("Pierwsze okno");
         }
+
+        driver.quit();
     }
 }
